@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Task09_FullLayout_Grupo2</string>
+    <string name="tiempo">Cloudy 72º</string>
+    <string name="textoGood">Good morning!</string>
+    <string name="textoLight">Light traffic ahead.</string>
+    <string name="textoNavigate">Navigate</string>
+    <string name="textoMake">Make a call</string>
+    <string name="textoPlay">Play</string>
+    <string name="textoJust">Just for you</string>
+    <string name="texto12">12 min</string>
+    <string name="textoTaco">to Tacolicious</string>
+    <string name="textoVia">vía US 101 South</string>
+    <string name="textoThomas">Thomas Williams</string>
+    <string name="textoMissed">Missed call</string>
+    <string name="textoLittle">Little Manila</string>
+    <string name="textoLong">Long Distance</string>
+    <string name="textoResume">Resume from "Kitchen Hub"</string>
+    <string name="textoImageButton">Imagen del ImageButton</string>
+</resources>
