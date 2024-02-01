@@ -472,128 +472,125 @@
                     android:layout_marginTop="15dp"
                     card_view:cardCornerRadius="10dp">
 
-    <!--    ImageButton de 12 min to Tacolicious
+                    <!--    ImageButton de 12 min to Tacolicious
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:padding -> espaciado del elemento
-            android:contentDescription -> texto descriptivo del elemento
-            android:backgroundTint -> color de fondo
-            android:background -> redondeo del elemento
-            android:scaleType -> escalado de imagen
-            app:srcCompat -> introduccion de imagen
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:padding -> espaciado del elemento
+                            android:contentDescription -> texto descriptivo del elemento
+                            android:backgroundTint -> color de fondo
+                            android:background -> redondeo del elemento
+                            android:scaleType -> escalado de imagen
+                            app:srcCompat -> introduccion de imagen
 
-    -->
+                    -->
 
                     <ImageButton
                         android:id="@+id/imageButton7"
                         android:layout_width="54dp"
                         android:layout_height="54dp"
-                        android:layout_marginLeft="-125dp"
-                        android:layout_gravity="center"
-                        android:padding="13dp"
-                        android:contentDescription="@string/textoImageButton"
-                        android:backgroundTint="@color/fondoBotonesHorizontales"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
                         android:background="@drawable/roundcorner"
+                        android:backgroundTint="@color/fondoBotonesHorizontales"
+                        android:contentDescription="@string/textoImageButton"
+                        android:padding="13dp"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/imagendireccion"/>
+                        app:srcCompat="@drawable/imagendireccion" />
 
-    <!--    TextView de 12 min
+                    <!--    TextView de 12 min
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            android:textAlignment -> alineado del texto
-            android:text -> texto que se muestra
-            android:textColor -> color del texto
-            android:textSize -> tamaño del texto
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_marginTop -> margen superior del elemento
+                            android:textAlignment -> alineado del texto
+                            android:text -> texto que se muestra
+                            android:textColor -> color del texto
+                            android:textSize -> tamaño del texto
 
-    -->
+                    -->
 
                     <TextView
                         android:id="@+id/textView8"
                         android:layout_width="70dp"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="-45dp"
-                        android:layout_marginTop="-10dp"
-                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="20dp"
                         android:text="@string/texto12"
+                        android:textAlignment="center"
                         android:textColor="@color/green"
-                        android:textSize="20sp"/>
+                        android:textSize="20sp" />
 
-    <!--    TextView de to Tacolicious
+                    <!--    TextView de to Tacolicious
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            android:textAlignment -> alineado del texto
-            android:text -> texto que se muestra
-            android:textColor -> color del texto
-            android:textSize -> tamaño del texto
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_marginTop -> margen superior del elemento
+                            android:textAlignment -> alineado del texto
+                            android:text -> texto que se muestra
+                            android:textColor -> color del texto
+                            android:textSize -> tamaño del texto
 
-    -->
+                    -->
 
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="130dp"
                         android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="55dp"
-                        android:layout_marginTop="-10dp"
-                        android:textAlignment="center"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginTop="20dp"
                         android:text="@string/textoTaco"
+                        android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="20sp"/>
+                        android:textSize="20sp" />
 
-    <!--    TextView de via US 101 South
+                    <!--    TextView de via US 101 South
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            android:textAlignment -> alineado del texto
-            android:text -> texto que se muestra
-            android:textColor -> color del texto
-            android:textSize -> tamaño del texto
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_marginTop -> margen superior del elemento
+                            android:textAlignment -> alineado del texto
+                            android:text -> texto que se muestra
+                            android:textColor -> color del texto
+                            android:textSize -> tamaño del texto
 
-    -->
+                    -->
 
                     <TextView
                         android:id="@+id/textView10"
                         android:layout_width="120dp"
                         android:layout_height="20dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="-20dp"
-                        android:layout_marginTop="16dp"
-                        android:textAlignment="center"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="50dp"
                         android:text="@string/textoVia"
+                        android:textAlignment="center"
                         android:textColor="@color/textoAdicional"
-                        android:textSize="15sp"/>
+                        android:textSize="15sp" />
                 </androidx.cardview.widget.CardView>
 
-    <!--    CardView de Thomas Williams
+                <!--    CardView de Thomas Williams
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_marginRight -> margen derecho del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            card_view:cardCornerRadius -> radio del borde del CardView
+                        android:id -> id de referencia
+                        android:layout_width -> ancho del elemento
+                        android:layout_height -> alto del elemento
+                        android:layout_marginRight -> margen derecho del elemento
+                        android:layout_marginLeft -> margen izquierdo del elemento
+                        android:layout_marginTop -> margen superior del elemento
+                        card_view:cardCornerRadius -> radio del borde del CardView
 
-    -->
+                -->
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView5"
@@ -604,123 +601,120 @@
                     android:layout_marginTop="15dp"
                     card_view:cardCornerRadius="10dp">
 
-    <!--    ImageButton de Thomas Williams
+                    <!--    ImageButton de Thomas Williams
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:padding -> espaciado del elemento
-            android:contentDescription -> texto descriptivo del elemento
-            android:backgroundTint -> color de fondo
-            android:background -> redondeo del elemento
-            android:scaleType -> escalado de imagen
-            app:srcCompat -> introduccion de imagen
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:padding -> espaciado del elemento
+                            android:contentDescription -> texto descriptivo del elemento
+                            android:backgroundTint -> color de fondo
+                            android:background -> redondeo del elemento
+                            android:scaleType -> escalado de imagen
+                            app:srcCompat -> introduccion de imagen
 
-    -->
+                    -->
 
                     <ImageButton
                         android:id="@+id/imageButton8"
                         android:layout_width="54dp"
                         android:layout_height="54dp"
-                        android:layout_marginLeft="-125dp"
-                        android:layout_gravity="center"
-                        android:contentDescription="@string/textoImageButton"
-                        android:backgroundTint="@color/fondoBotonesHorizontales"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
                         android:background="@drawable/roundcorner"
+                        android:backgroundTint="@color/fondoBotonesHorizontales"
+                        android:contentDescription="@string/textoImageButton"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/imagenthomas"/>
+                        app:srcCompat="@drawable/imagenthomas" />
 
-    <!--    TextView de Thomas Williams
+                    <!--    TextView de Thomas Williams
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            android:textAlignment -> alineado del texto
-            android:text -> texto que se muestra
-            android:textColor -> color del texto
-            android:textSize -> tamaño del texto
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_marginTop -> margen superior del elemento
+                            android:textAlignment -> alineado del texto
+                            android:text -> texto que se muestra
+                            android:textColor -> color del texto
+                            android:textSize -> tamaño del texto
 
-    -->
+                    -->
 
                     <TextView
                         android:id="@+id/textView11"
                         android:layout_width="155dp"
                         android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="-3dp"
-                        android:layout_marginTop="-10dp"
-                        android:textAlignment="center"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="20dp"
                         android:text="@string/textoThomas"
+                        android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="20sp"/>
+                        android:textSize="20sp" />
 
-    <!--    ImageView de Missed call
+                    <!--    ImageView de Missed call
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            android:scaleType -> escalado de imagen
-            app:srcCompat -> introduccion de imagen
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_marginTop -> margen superior del elemento
+                            android:scaleType -> escalado de imagen
+                            app:srcCompat -> introduccion de imagen
 
-    -->
+                    -->
 
                     <ImageView
                         android:id="@+id/imageView"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="-71dp"
-                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="50dp"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/imagenperdida"/>
+                        app:srcCompat="@drawable/imagenperdida" />
 
-    <!--    TextView de Missed call
+                    <!--    TextView de Missed call
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            android:textAlignment -> alineado del texto
-            android:text -> texto que se muestra
-            android:textColor -> color del texto
-            android:textSize -> tamaño del texto
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_marginTop -> margen superior del elemento
+                            android:textAlignment -> alineado del texto
+                            android:text -> texto que se muestra
+                            android:textColor -> color del texto
+                            android:textSize -> tamaño del texto
 
-    -->
+                    -->
 
                     <TextView
                         android:id="@+id/textView12"
                         android:layout_width="85dp"
                         android:layout_height="20dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="-18dp"
-                        android:layout_marginTop="15dp"
-                        android:textAlignment="center"
+                        android:layout_marginStart="119dp"
+                        android:layout_marginTop="50dp"
                         android:text="@string/textoMissed"
+                        android:textAlignment="center"
                         android:textColor="@color/textoAdicional"
-                        android:textSize="15sp"/>
+                        android:textSize="15sp" />
                 </androidx.cardview.widget.CardView>
 
-    <!--    CardView de Little Manila
+                <!--    CardView de Little Manila
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_marginRight -> margen derecho del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            card_view:cardCornerRadius -> radio del borde del CardView
+                        android:id -> id de referencia
+                        android:layout_width -> ancho del elemento
+                        android:layout_height -> alto del elemento
+                        android:layout_marginRight -> margen derecho del elemento
+                        android:layout_marginLeft -> margen izquierdo del elemento
+                        android:layout_marginTop -> margen superior del elemento
+                        card_view:cardCornerRadius -> radio del borde del CardView
 
-    -->
+                -->
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView6"
@@ -731,99 +725,98 @@
                     android:layout_marginTop="15dp"
                     card_view:cardCornerRadius="10dp">
 
-    <!--    ImageButton de Little Manila
+                    <!--    ImageButton de Little Manila
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:padding -> espaciado del elemento
-            android:contentDescription -> texto descriptivo del elemento
-            android:backgroundTint -> color de fondo
-            android:background -> redondeo del elemento
-            android:scaleType -> escalado de imagen
-            app:srcCompat -> introduccion de imagen
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:padding -> espaciado del elemento
+                            android:contentDescription -> texto descriptivo del elemento
+                            android:backgroundTint -> color de fondo
+                            android:background -> redondeo del elemento
+                            android:scaleType -> escalado de imagen
+                            app:srcCompat -> introduccion de imagen
 
-    -->
+                    -->
 
                     <ImageButton
                         android:id="@+id/imageButton9"
                         android:layout_width="54dp"
                         android:layout_height="54dp"
-                        android:layout_marginLeft="-125dp"
-                        android:layout_gravity="center"
-                        android:contentDescription="@string/textoImageButton"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
                         android:background="@drawable/roundcorner2"
+                        android:contentDescription="@string/textoImageButton"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/imagenplay"/>
+                        app:srcCompat="@drawable/imagenplay" />
 
-    <!--    TextView de Little Manila
+                    <!--    TextView de Little Manila
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            android:textAlignment -> alineado del texto
-            android:text -> texto que se muestra
-            android:textColor -> color del texto
-            android:textSize -> tamaño del texto
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_marginTop -> margen superior del elemento
+                            android:textAlignment -> alineado del texto
+                            android:text -> texto que se muestra
+                            android:textColor -> color del texto
+                            android:textSize -> tamaño del texto
 
-    -->
+                    -->
 
                     <TextView
                         android:layout_width="115dp"
                         android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="-22dp"
-                        android:layout_marginTop="-25dp"
-                        android:textAlignment="center"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="20dp"
                         android:text="@string/textoLittle"
+                        android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="20sp"/>
+                        android:textSize="20sp" />
 
-    <!--    TextView de Long Distance
+                    <!--    TextView de Long Distance
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:textAlignment -> alineado del texto
-            android:text -> texto que se muestra
-            android:textColor -> color del texto
-            android:textSize -> tamaño del texto
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:textAlignment -> alineado del texto
+                            android:text -> texto que se muestra
+                            android:textColor -> color del texto
+                            android:textSize -> tamaño del texto
 
-    -->
+                    -->
 
                     <TextView
                         android:id="@+id/textView13"
                         android:layout_width="105dp"
                         android:layout_height="20dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="-27dp"
-                        android:textAlignment="center"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="50dp"
                         android:text="@string/textoLong"
+                        android:textAlignment="center"
                         android:textColor="@color/textoAdicional"
-                        android:textSize="15sp"/>
+                        android:textSize="15sp" />
 
-    <!--    TextView de Resume from Kitchen Hub
+                    <!--    TextView de Resume from Kitchen Hub
 
-            android:id -> id de referencia
-            android:layout_width -> ancho del elemento
-            android:layout_height -> alto del elemento
-            android:layout_gravity -> gravedad del elemento
-            android:layout_marginLeft -> margen izquierdo del elemento
-            android:layout_marginTop -> margen superior del elemento
-            android:textAlignment -> alineado del texto
-            android:background -> color del sombreado
-            android:text -> texto que se muestra
-            android:textColor -> color del texto
-            android:textSize -> tamaño del texto
+                            android:id -> id de referencia
+                            android:layout_width -> ancho del elemento
+                            android:layout_height -> alto del elemento
+                            android:layout_gravity -> gravedad del elemento
+                            android:layout_marginLeft -> margen izquierdo del elemento
+                            android:layout_marginTop -> margen superior del elemento
+                            android:textAlignment -> alineado del texto
+                            android:background -> color del sombreado
+                            android:text -> texto que se muestra
+                            android:textColor -> color del texto
+                            android:textSize -> tamaño del texto
 
-    -->
+                    -->
 
                     <TextView
                         android:id="@+id/textView14"
