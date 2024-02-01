@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val btnOpenWeather = findViewById<ImageButton>(R.id.imageButton2)
         val btnOpenPhone2 = findViewById<CardView>(R.id.cardView5)
         val btnGoogleAssistant = findViewById<ImageButton>(R.id.imageButton)
-        val btnGoogleAssistant2 = findViewById<ImageButton>(R.id.imageButton7)
+        val btnGoogleAssistant2 = findViewById<ImageButton>(R.id.imageButton10)
         val btnOpenMusicPlayer= findViewById<CardView>(R.id.cardView6)
         val btnOpenMusicPlayer2= findViewById<ImageButton>(R.id.imageButton5)
         val btnFlechita= findViewById<ImageButton>(R.id.imageButton11)
