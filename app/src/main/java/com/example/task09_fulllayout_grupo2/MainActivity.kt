@@ -3,11 +3,13 @@ package com.example.task09_fulllayout_grupo2
 import android.animation.ObjectAnimator
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.speech.RecognizerIntent
 import android.widget.ImageButton
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         val btnOpenMusicPlayer= findViewById<CardView>(R.id.cardView6)
         val btnOpenMusicPlayer2= findViewById<ImageButton>(R.id.imageButton5)
         val btnFlechita= findViewById<ImageButton>(R.id.imageButton11)
-
+        val imgGmail = findViewById<ImageButton>(R.id.imageButton6)
 
         //Pulsar para abrir el reproductor por defecto de musica
         btnOpenMusicPlayer.setOnClickListener {abrirYoutube()}
@@ -62,6 +64,19 @@ class MainActivity : AppCompatActivity() {
             rotateAnimator.repeatCount = ObjectAnimator.REVERSE
             rotateAnimator.start()
         }
+
+        imgGmail.setOnClickListener {
+            val myIntent = Intent(Intent.ACTION_SEND)
+            myIntent.setType("message/rfc822")
+            myIntent.putExtra(Intent.EXTRA_EMAIL, arrayOf("jorgeelcurioso@centroafuera.com"))
+            myIntent.putExtra(Intent.EXTRA_SUBJECT, "Idea de proyecto")
+            myIntent.setPackage("com.google.android.gm")
+            if (intent.resolveActivity(packageManager) != null)
+                startActivity(myIntent)
+            else
+                Toast.makeText(this,"Gmail no está instalado",Toast.LENGTH_SHORT).show();
+
+        }
     }
 
     fun call(){
@@ -71,9 +86,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun navigate(){
-        val latitude = 37.7749
-        val longitude = -122.4194
-
+        val latitude = 37.394616385996365
+        val longitude = -113.60044952327043
         val gmmIntentUri: Uri = Uri.parse("geo:$latitude,$longitude?q=$latitude,$longitude(label)")
         val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
         mapIntent.setPackage("com.google.android.apps.maps")
@@ -95,9 +109,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun googleAssistant(){
-        val intent = Intent(RecognizerIntent.ACTION_VOICE_SEARCH_HANDS_FREE)
-        intent.putExtra(RecognizerIntent.EXTRA_SECURE, false)
-        startActivityForResult(intent, REQUEST_CODE)
+        val myIntent = Intent(RecognizerIntent.ACTION_VOICE_SEARCH_HANDS_FREE)
+        myIntent.putExtra(RecognizerIntent.EXTRA_SECURE, false)
+        if (intent.resolveActivity(packageManager) != null)
+            startActivityForResult(myIntent, REQUEST_CODE)
+        else
+            Toast.makeText(this,"Google assistant no instalado",Toast.LENGTH_SHORT).show();
     }
 
 
